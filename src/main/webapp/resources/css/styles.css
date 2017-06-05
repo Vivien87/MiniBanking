@@ -1,0 +1,118 @@
+a:link{color:black}
+a:visited{color:black}
+a:hover{color:red}
+a:active{color:red}
+a:focus{color:red}
+
+
+
+html{
+    background:ghostwhite;
+
+}
+
+
+
+
+header{
+
+}
+
+
+
+body{
+    font-family: sans-serif;
+    background-color: ghostwhite;
+    color: black;
+
+
+
+}
+footer{}
+
+
+#title{
+    background-color: tomato;
+    text-align: center;
+    color: white;
+
+    border: 1px solid #848484;
+    -webkit-border-radius:4px; 
+}
+
+#login{
+    background-color:#393939;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#registr{
+    background-color:#393939;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+/*    input, select, textarea{
+    color: black;
+    border: 1px solid #848484;
+    -webkit-border-radius:4px; 
+}
+*/
+.input{
+    border:1px solid #dbdbdb;
+    padding:0 5px 0 5px;
+    height:30px;width:200px;
+    border-radius:3px;
+    color:black;
+    font-family: sans-serif;
+}
+.input:focus{
+    border:1px solid rgba(51,153,255,0.4);
+    box-shadow:0 0 5px rgba(51,153,255,0.4);
+    outline: none;
+}
+
+
+
+
+#image{    
+    padding: 0px;
+
+}
+
+#topBar{
+    background-color:#848484;
+    text-align: right;
+}
+#topBar2{
+    background-color:#848484;
+    text-align: left;
+}
+#leftBar{
+
+    background-color: #848484;
+    margin-top:2px;
+}
+#rightMenu{
+
+    background-color: #848484;
+    margin-top:2px;
+}
+
+#table{
+    background-color: white;
+    margin-top:2px;
+    padding:0px;
+    border: 1px solid #848484;
+    -webkit-border-radius:4px; 
+    text-align: center;
+
+
+}
+
+th{
+    text-align: center;
+}
