@@ -10,10 +10,7 @@ import static com.vivi.service.AddMovements.setMovements;
 import java.util.List;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- *
- * @author fedec
- */
+
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
