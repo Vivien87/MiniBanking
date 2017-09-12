@@ -1,7 +1,7 @@
-package com.vivi.service;
+package com.sergiu.service;
 
 
-import com.vivi.model.Movements;
+import com.sergiu.model.Movements;
 
 import java.util.Date;
 
@@ -32,7 +32,7 @@ public class AddMovements {
                 break;
         }
 
-        return movs;
+        return that;
     }
 
 }
